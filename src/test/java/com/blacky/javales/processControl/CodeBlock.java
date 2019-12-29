@@ -4,7 +4,7 @@ import org.junit.Test;
 
 public class CodeBlock {
     @Test
-    public void testBlockScope(){
+    public void testBlockScope() {
         int n1 = 100;
         System.out.println(n1);
         {
