@@ -75,4 +75,13 @@ public class ifElseTest {
         System.out.println("total:"+total);
         System.out.println("times:"+times);
     }
+
+    @Test
+    public void testInteger() {
+        int n1 = 127;
+        Integer n2 = new Integer(127);
+        int n3 = 128;
+        Integer n4 = new Integer(128);
+        System.out.println((n1 == n2) + "," + n2.equals(n1) + "," + (n3 == n4) + "," + n4.equals(n3));
+    }
 }
