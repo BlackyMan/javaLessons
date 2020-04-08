@@ -19,10 +19,10 @@ public class CalcMinMax {
         Integer min = null;
         Integer max = null;
         for (int num : numbs) {
-            if (min == null | min > num) {
+            if (min == null || min > num) {
                 min = num;
             }
-            if (max == null | max < num) {
+            if (max == null || max < num) {
                 max = num;
             }
         }
